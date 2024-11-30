@@ -35,13 +35,13 @@ public class Pikachu extends Pokemon implements IElectric {
 
     @Override
     public void attackLightning() {
-        System.out.println("Hello, I'm Pikachu and this is my bite attack");
+        System.out.println("Hello, I'm Pikachu and this is my Lightning attack");
 
     }
 
     @Override
     public void attackChargeLightning() {
-        System.out.println("Hello, I'm Pikachu and this is my bite attack");
+        System.out.println("Hello, I'm Pikachu and this is my Charge Lightning attack");
 
     }
 

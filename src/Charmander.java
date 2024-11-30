@@ -1,13 +1,13 @@
 public class Charmander extends Pokemon implements IFire {
 
-    public Charmander(String user) {
+    public Charmander() {
         super(123, "Charmander", 12.3, "Masculino", 1);
 
     }
 
     @Override
     protected void tackleAttack() {
-        System.out.println("Hello, I'm Charmander and this is my tackle attack");
+        System.out.println("Hello, I'm " + name + " Charmander and this is my tackle attack");
     }
 
     @Override
@@ -29,8 +29,8 @@ public class Charmander extends Pokemon implements IFire {
     }
 
     @Override
-    public void attackFlameThrowe() {
-        System.out.println("Hello, I'm Charmander and this is my flamethrowe attack");
+    public void attackFlamer() {
+        System.out.println("Hello, I'm Charmander and this is my flamer attack");
 
     }
 
